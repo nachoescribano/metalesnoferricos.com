@@ -17,7 +17,7 @@ section {
     padding: 8em 0;
 }
 
-section/*:nth-child(odd)*/ {
+section:nth-child(odd) {
     background-color: var(--color-bg-light);
 }
 
@@ -55,7 +55,6 @@ SECCIONES
     font-size: 1.5rem;
     font-weight: 300;
 }
-
 
 
 
