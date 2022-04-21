@@ -1,0 +1,111 @@
+:root {
+    --color-accent: #00437a;
+    --color-accent-hover: #051d30;
+    --color-primary: #3080c1;
+    --color-bg-light: /*rgb(248,249,250);*/rgb(239, 247, 253);
+    /*--color-bg-table-1: rgb(121, 164, 228);
+    --color-bg-table-2: rgb(169, 201, 250);*/
+}
+
+/*
+UTILIDADES
+==========
+*/
+
+/* para quitar el margen de los textos en las tablas*/
+td>p {
+    margin-bottom: 0;
+}
+
+section {
+    padding: 8em 0;
+}
+
+section:nth-child(odd) {
+    background-color: var(--color-bg-light);
+}
+
+table + small {
+    margin-top: -0.7em;
+    display: block;
+}
+
+/*
+MODIFICACIONES BOOTSTRAP
+========================
+*/
+
+a {
+    color: var(--color-accent);
+}
+
+a:hover {
+    color: var(--color-accent-hover);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--color-accent);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-accent-hover);
+}
+
+
+h1, h2 {
+    color: var(--color-accent);
+}
+
+.table-primary {
+    background-color: var(--color-primary);
+}
+
+
+
+/*
+COMPONENTES
+===========
+*/
+
+/* sombreado navbar */
+.navbar {
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* tablas 
+.bg-table-1 {
+    background-color: var(--color-bg-table-1)!important;
+}
+
+.bg-table-2 {
+    background-color: var(--color-bg-table-2)!important;
+}*/
+
+/*
+SECCIONES
+=========
+*/
+
+.intro {
+    min-height: 100vh;
+}
+
+.intro__title {
+    line-height: 1;
+}
+
+.vbt-card {
+    transition: all ease-in-out 150ms;
+}
+
+.vbt-card:hover {
+    transform: scale(110%);
+}
+
+.vbt-card__title {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+

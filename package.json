@@ -1,0 +1,25 @@
+{
+  "name": "metalesnoferricos.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nachoescribano/metalesnoferricos2.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nachoescribano/metalesnoferricos2.com/issues"
+  },
+  "homepage": "https://github.com/nachoescribano/metalesnoferricos2.com#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "g": "^2.0.1",
+    "sass": "^1.50.1"
+  }
+}
