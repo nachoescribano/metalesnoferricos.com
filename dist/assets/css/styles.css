@@ -8,6 +8,48 @@
 }
 
 /*
+GENERAL
+=======
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+.h1,
+.h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h3,
+h4,
+h5,
+h6,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+thead p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+p,
+ul,
+small,
+.accordion-button,
+.accordion-body {
+    font-weight: 300;
+}
+
+/*
 UTILIDADES
 ==========
 */
@@ -45,12 +87,12 @@ a:hover {
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--color-accent);
+    font-weight: 500;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: var(--color-accent-hover);
 }
-
 
 h1, h2 {
     color: var(--color-accent);
@@ -58,6 +100,15 @@ h1, h2 {
 
 .table-primary {
     background-color: var(--color-primary);
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.display-1, .display-4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
 
 
@@ -105,6 +156,31 @@ SECCIONES
 .vbt-card__title {
     font-size: 1.5rem;
     font-weight: 300;
+}
+
+/* posicionamiento para visualizar por debajo del menú */
+#bronce-tolerancias,
+#bronce-aleaciones-principales,
+#aluminio-aleaciones-principales,
+#aluminio-calidad,
+#aluminio-lados-biselados,
+#aluminio-viruta,
+#aluminio-composicion-quimica,
+#aluminio-stock,
+#laton-aleaciones-principales,
+#laton-tolerancias,
+#laton-pesos,
+#cobre-cu-etp,
+#cobre-teluro,
+#cobre-die-casting,
+#cobre-berilio,
+#cobre-berilio-caracteristicas-mecanicas,
+#cobre-berilio-tolerancias-norma-C17300,
+#cobre-berilio-tolerancias-norma-C17200
+
+{
+    position: absolute;
+    transform: translateY(-90px);
 }
 
 
