@@ -72,6 +72,10 @@ table + small {
     display: block;
 }
 
+.icon-white {
+    fill: red;
+  }
+
 /*
 MODIFICACIONES BOOTSTRAP
 ========================
@@ -94,6 +98,19 @@ a:hover {
     color: var(--color-accent-hover);
 }
 
+.btn-primary {
+    color: var(--color-accent);
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);  
+}
+
+.btn-primary:hover {
+    color: #fff;
+    border-color: var(--color-accent);
+    background-color: var(--color-accent-hover);
+  }
+  
+
 h1, h2 {
     color: var(--color-accent);
 }
@@ -101,6 +118,19 @@ h1, h2 {
 .table-primary {
     background-color: var(--color-primary);
 }
+
+.table-primary {
+    --bs-table-bg: #00437a;
+    --bs-table-striped-bg: #c5d7f2;
+    --bs-table-striped-color: #000;
+    --bs-table-active-bg: #bacbe6;
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: #bfd1ec;
+    --bs-table-hover-color: #000;
+    color: #fff;
+    border-color: #1969aa;
+  }
+  
 
 .card-link {
     text-decoration: none;
