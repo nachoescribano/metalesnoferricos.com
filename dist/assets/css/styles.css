@@ -1,8 +1,9 @@
 :root {
-    --color-accent: #00437a;
+    /*--color-accent: #00437a;
     --color-accent-hover: #051d30;
-    --color-primary: #3080c1;
-    --color-bg-light: /*rgb(248,249,250);*/rgb(239, 247, 253);
+    --color-primary: #3080c1;*/
+    --color-bg-light: rgb(239, 247, 253);
+    --color-terciario: #858a90;
     /*--color-bg-table-1: rgb(121, 164, 228);
     --color-bg-table-2: rgb(169, 201, 250);*/
 }
@@ -49,6 +50,10 @@ small,
     font-weight: 300;
 }
 
+.texto-terciario {
+    color: var(--color-terciario);
+}
+
 /*
 UTILIDADES
 ==========
@@ -72,28 +77,23 @@ table + small {
     display: block;
 }
 
-.icon-white {
-    fill: red;
-  }
-
 /*
 MODIFICACIONES BOOTSTRAP
 ========================
 */
 
-a {
+/*a {
     color: var(--color-accent);
 }
 
 a:hover {
     color: var(--color-accent-hover);
-}
+}*/
 
-.navbar-light .navbar-nav .nav-link {
-    color: var(--color-accent);
+.navbar-primary .navbar-nav .nav-link {
     font-weight: 500;
 }
-
+/*
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: var(--color-accent-hover);
 }
@@ -108,14 +108,14 @@ a:hover {
     color: #fff;
     border-color: var(--color-accent);
     background-color: var(--color-accent-hover);
-  }
+  }*/
   
 
 h1, h2 {
     color: var(--color-accent);
 }
 
-.table-primary {
+/*.table-primary {
     background-color: var(--color-primary);
 }
 
@@ -129,7 +129,7 @@ h1, h2 {
     --bs-table-hover-color: #000;
     color: #fff;
     border-color: #1969aa;
-  }
+  }*/
   
 
 .card-link {
