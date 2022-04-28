@@ -7,6 +7,7 @@
     --color-primary-50: rgba(0, 67, 122, 0.5);
     --color-bg-light: rgb(239, 247, 253);
     --color-terciario: #676B70;
+    --color-vbt-secundario: rgb(224,224,224);
 }
 
 /*
@@ -72,11 +73,6 @@ section {
     padding: 8em 0;
 }
 
-.footer {
-    padding: 8em 0;
-    background-color: var(--color-bg-light);
-}
-
 section:nth-child(odd) {
     background-color: var(--color-bg-light);
 }
@@ -91,10 +87,6 @@ MODIFICACIONES BOOTSTRAP
 ========================
 */
 
-.navbar-primary .navbar-nav .nav-link {
-    font-weight: 500;
-}
-
 .card-link {
     text-decoration: none;
 }
@@ -102,6 +94,10 @@ MODIFICACIONES BOOTSTRAP
 .display-1, .display-4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+}
+
+.fw-bold {
+    font-weight: 500 !important;
 }
 
 /*
@@ -179,6 +175,11 @@ SECCIONES
 {
     position: absolute;
     transform: translateY(-90px);
+}
+
+.footer {
+    padding: 8em 0 0;
+    background-color: var(--color-vbt-secundario);
 }
 
 

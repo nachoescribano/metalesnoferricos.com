@@ -23,9 +23,50 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-primary navbar-expand-md bg-light fixed-top">
+      <!--<nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Offcanvas navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>-->
+      <nav class="navbar navbar-light navbar-expand-md bg-light fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="https://vbt.mx">
+          <a target="_blank" class="navbar-brand" href="https://vbt.mx">
             <img src="assets/img/logo-vbt.svg" alt="logotipo VBT" role="img" width="auto" height="50">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -41,19 +82,19 @@
                   Metales no férricos: 
                 </span>
                 <li class="nav-item">
-                  <a class="nav-link" href="#laton">Latón</a>
+                  <a class="nav-link fw-bold text-primary" href="#laton">Latón</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#cobre">Cobre</a>
+                  <a class="nav-link fw-bold text-primary" href="#cobre">Cobre</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#aluminio">Aluminio</a>
+                  <a class="nav-link fw-bold text-primary" href="#aluminio">Aluminio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="true" href="#bronce">Bronce</a>
+                  <a class="nav-link fw-bold text-primary" aria-current="true" href="#bronce">Bronce</a>
                 </li>                
               </ul>
-              <a class="btn btn-primary" href="https://www.vbt.mx/sites/default/files/metales_no_ferricos_para_mecanizar_de_alta_precision_v21.pdf#page=1" role="button">
+              <a target="_blank" class="btn btn-primary" href="https://www.vbt.mx/sites/default/files/metales_no_ferricos_para_mecanizar_de_alta_precision_v21.pdf#page=1" role="button">
                 <img class="icon-white" src="assets/img/download.svg" alt="descarga">
                 Catálogo
               </a>
@@ -3308,7 +3349,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 my-5">
+            <div class="col-md-6 mt-5">
               <h3 class="h3 texto-terciario">
                 Calidad calibrada o extruida
               </h3>
@@ -8166,19 +8207,82 @@
           </div>
         </div>
       </section>
-      <footer class="footer">
+      <section>
         <div class="container">
           <div class="row">
             <div class="col d-flex justify-content-center">
-              <a class="btn btn-primary btn-lg" href="https://www.vbt.mx/sites/default/files/metales_no_ferricos_para_mecanizar_de_alta_precision_v21.pdf#page=1" role="button">
+              <a target="_blank" class="btn btn-primary btn-lg" href="https://www.vbt.mx/sites/default/files/metales_no_ferricos_para_mecanizar_de_alta_precision_v21.pdf#page=1" role="button">
                 <img class="icon-white" src="assets/img/download.svg" alt="descarga">
                 Catálogo
               </a>
             </div>
           </div>
         </div>
-      </footer>
+      </section>
     </main>
+    <!-- Footer -->
+    <footer class="footer text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 mb-5">
+            <img src="assets/img/logo-vbt.svg" width="150px" height="auto" alt="logotipo VBT">
+
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 ms-auto">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contacto
+            </h6>
+            <address>
+              <abbr title="Teléfono">T:  </abbr>
+                (+52) 461 611 0631 <br>
+                <a href="mailto:info@vbt.mx">
+                  info@vbt.mx
+                </a><br><br>
+                Av. Laurel 205 Fracc. industrial El Vergel 38110&nbsp;-&nbsp;Celaya Guanajuato&nbsp;-&nbsp;México <br>
+            </address>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="row legal">
+          <div class="col">
+            <hr>
+            <ul class="list list-inline">
+              <li class="legal__list-item list-inline-item small">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+    
+                VBT Insdutrial S.A de C.V. todos los derechos reservados
+              </li>
+              <li class="legal__list-item list-inline-item small">
+                <a href="https://www.vbt.mx/es/legal-notice" class="text-decoration-none">
+                  Aviso legal
+                </a>
+              </li>
+              <li class="legal__list-item list-inline-item small">
+                <a href="https://www.vbt.mx/es/privacy-policy" class="text-decoration-none">
+                  Política de privacidad                  
+                </a>
+              </li>
+              <li class="legal__list-item list-inline-item small">
+                <a href="https://www.vbt.mx/es/politica-de-cookies" class="text-decoration-none">
+                  Política de cookies
+                </a>
+              </li>
+              <li class="legal__list-item list-inline-item small">
+                <a href="https://www.vbt.mx/sites/all/themes/vbt/pdf/M-CAL-A2-ES.pdf" class="text-decoration-none">
+                  Política del Sistema Integrado de Gestión
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
