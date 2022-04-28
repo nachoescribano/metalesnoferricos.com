@@ -3,6 +3,8 @@
  */
 
 :root {
+    --color-primary-75: rgba(0, 67, 122, 0.75);
+    --color-primary-50: rgba(0, 67, 122, 0.5);
     --color-bg-light: rgb(239, 247, 253);
     --color-terciario: #676B70;
 }
@@ -101,6 +103,21 @@ MODIFICACIONES BOOTSTRAP
 COMPONENTES
 ===========
 */
+
+.lift {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: var(--color-primary-50);
+    height: 50px;
+    width: 50px;
+    transition: all ease-in-out 250ms;
+}
+
+.lift:hover {
+    background-color: var(--color-primary-75);
+
+}
 
 /* sombreado navbar */
 .navbar {
